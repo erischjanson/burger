@@ -25,7 +25,7 @@ var orm = {
 			if(error){
 				throw error;
 			}
-			cb(results);
+			callback(results);
 		});
 
 	},
@@ -42,7 +42,7 @@ var orm = {
 			if(error){
 				throw error;
 			}
-			cb(results);
+			callback(results);
 		});
 	}
 };
